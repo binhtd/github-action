@@ -59,7 +59,7 @@ jobs:
         uses: 'google-github-actions/auth@v1'
         with:
           workload_identity_provider: 'projects/343258946223/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
-          service_account: 'gitlab-runner-service-account%40vinid-playground.iam.gserviceaccount.com'
+          service_account: 'gitlab-runner-service-account@vinid-playground.iam.gserviceaccount.com'
 
       - id: 'upload-file'
         uses: 'google-github-actions/upload-cloud-storage@v1'
