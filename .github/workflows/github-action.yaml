@@ -64,5 +64,5 @@ jobs:
       - id: 'upload-file'
         uses: 'google-github-actions/upload-cloud-storage@v1'
         with:
-          path: 'README.md'
+          glob: '**/*.json'
           destination: 'demo-xxxxxx/README.md'
